@@ -65,13 +65,77 @@ for (i = 0; i < length2; i++) {
 	console.log(print);
 };
 
+//Return of the closets
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+kristynsShoe = kristynsCloset[0];
+thomsCloset[2].push(kristynsShoe);
 
 
 
+const kristynsOutfit1 = [];
+const kristynsOutfit2 = [];
+const kristynsOutfit3 = [];
+
+const thomsOutfit1 = [];
+const thomsOutfit2 = [];
+const thomsOutfit3 = [];
 
 
 
+kristynsOutfit1.push(kristynsCloset[5]);
+kristynsOutfit1.push(kristynsCloset[3]);
+kristynsOutfit1.push(kristynsCloset[4]);
 
+kristynsOutfit2.push(kristynsCloset[3]);
+kristynsOutfit2.push(kristynsCloset[4]);
+kristynsOutfit2.push(kristynsCloset[1]);
+
+kristynsOutfit3.push(kristynsCloset[5]);
+kristynsOutfit3.push(kristynsCloset[0]);
+kristynsOutfit3.push(kristynsCloset[2]);
+
+
+thomsOutfit1.push(thomsCloset[0][1]);
+thomsOutfit1.push(thomsCloset[1][2]);
+thomsOutfit1.push(thomsCloset[2][0]);
+
+thomsOutfit2.push(thomsCloset[2][0]);
+thomsOutfit2.push(thomsCloset[1][1]);
+thomsOutfit2.push(thomsCloset[0][2]);
+
+thomsOutfit3.push(thomsCloset[1][2]);
+thomsOutfit3.push(thomsCloset[2][1]);
+thomsOutfit3.push(thomsCloset[0][0]);
 
 
 
