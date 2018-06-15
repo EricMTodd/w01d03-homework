@@ -59,7 +59,7 @@ kristyn.push("Brooklyn");
 const turtleTime = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 let length2 = turtleTime.length;
 
-for (i = 0; i < length2; i++) {
+for (let i = 0; i < length2; i++) {
 	let shout = turtleTime[i];
 	let print = shout.toUpperCase();
 	console.log(print);
@@ -136,6 +136,21 @@ thomsOutfit2.push(thomsCloset[0][2]);
 thomsOutfit3.push(thomsCloset[1][2]);
 thomsOutfit3.push(thomsCloset[2][1]);
 thomsOutfit3.push(thomsCloset[0][0]);
+
+
+//Dirty laundry
+for (let i = 0; i < kristynsCloset.length; i++) {
+  console.log("WHIRR: Now washing " + kristynsCloset[i])
+};
+
+//Thom's closet inventory
+for (let i = 0; i < thomsCloset.length; i++) {
+  for (let k = 0; k < thomsCloset.length; k++) {
+    console.log(thomsCloset[i], [k]);
+  }
+};
+
+
 
 
 
